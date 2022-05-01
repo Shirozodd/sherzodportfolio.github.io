@@ -11,10 +11,20 @@ body{
     background-color: #4e54c8;
     color: white;
 }
+.container a{
+    display: flex;
+}
+.container a p{
+    color: orange;
+    position: relative;
+    left: 5px;
+    top: 12px;
+}
 .container .logo-main{
     width: 50px;
     filter: invert(56%) sepia(86%) saturate(866%) hue-rotate(0deg) brightness(105%) contrast(105%);
 }
+
 .navbar-brand img{
     width: 100px;
 }
@@ -87,7 +97,7 @@ body{
     .location{
         font-size: 30px;
         text-align: center;   
-        color: red; 
+        color: gray; 
     }
 
     .intro img{
@@ -97,10 +107,39 @@ body{
         overflow: hidden;
     }
 }
+.card-right{
+    display: flex;
+
+}
+.portfolio-img{
+    width: 500px;
+    display: inline;
+    margin: 0;
+}
+.card-right p{
+    position: relative;
+    right: 200px;
+    padding-top: 130px;
+}
 .card{
-    width: 250px;
+    width: 500px;
     float:right;
     margin-left:20px;
+}
+.card-area img{
+    width: 300px;
+    padding: 10px;
+    border: 2px solid orange;
+    float:right;
+}
+
+
+.visit{
+    margin-left: 115px;
+}
+.visit a{
+    text-decoration: none;
+    color: orange;
 }
 .footer {
     left: 0;
@@ -111,6 +150,13 @@ body{
     text-align: center;
     height: 50px;
  }
+.gallery-p{
+    color: rgb(255, 193, 77);
+    text-shadow: black 2px 1px 3px;
+}
+p .instagram{
+    width: 50px;
+}
 
 /* Background */
 .context {
